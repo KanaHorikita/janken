@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: lightblue;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    height: auto;
+}
+
+#header_img{
+    margin: 0 auto;
+}
+
+main{
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:100%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:50px;
+}
+
+#pc_result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pc_hands{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.hand_img{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    cursor: pointer;
+}
+
+.hand_img:hover{
+    opacity:0.5;
+	transition:0.3s; 
+}
+
+
